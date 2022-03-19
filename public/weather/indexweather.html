@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="shortcut icon" href="#">
+    <title>Coding Train: Data/APIs</title>
+  </head>
+
+  <body>
+    <h1 class="form__title">Pascals Master App</h1>
+    <h1 class="form__title">Weather</h1>
+
+    <div><a href="../webcam/indexwebcam.html" class="form__link">input webcam</a> | 
+      <a href="../draw/indexdraw.html" class="form__link">input draw</a> | 
+       <a href="../logs/all.html" class="form__link">data inputs</a><br />     
+
+       <a href="indexweather.html" class="form__link">input weather</a>  | 
+       <a href="../checkins/indexcheckins.html" class="form__link">data weather</a>
+    </div><br />
+    
+    <p>
+      latitude: <span id="latitude"></span>&deg;<br />
+      longitude: <span id="longitude"></span>&deg;
+    </p>
+
+    <br />
+    <p>
+      The weather here in <span id="place"></span>, <span id="country"></span> is: "<span id="weatherdesc"></span>", with a temperature of <span id="temp"> </span> &deg;C. <br />
+      The concentration of particulate matter (<span id="aq_parameter"></span>) is <span id="aq_value"></span> <span id="aq_units"></span>
+      , and was last read on <span id="aq_date"></span>.
+    </p>
+    <br />
+
+    <button id="submit2" class="form__button">submit</button>
+    <br /><br />
+    
+    <script src="scriptweather.js"></script>
+  </body>
+</html>

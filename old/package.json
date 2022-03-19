@@ -1,0 +1,26 @@
+{
+  "name": "module3",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is a data weather app by Joey Lee.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules src/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "data",
+    "selfie"
+  ],
+  "author": "Pascal Segesser",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.2",
+    "nedb": "^1.8.0",
+    "node-fetch": "^3.2.0"
+  }
+}
+
+
